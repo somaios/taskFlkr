@@ -12,6 +12,9 @@
 		5257FB1C200E475800D92046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5257FB1A200E475800D92046 /* Main.storyboard */; };
 		5257FB1E200E475800D92046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5257FB1D200E475800D92046 /* Assets.xcassets */; };
 		5257FB21200E475800D92046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5257FB1F200E475800D92046 /* LaunchScreen.storyboard */; };
+		5257FB29200E4D9800D92046 /* CollectionJSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5257FB28200E4D9800D92046 /* CollectionJSON.txt */; };
+		5257FB2D200E742C00D92046 /* imageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257FB2C200E742C00D92046 /* imageCollectionViewCell.swift */; };
+		5257FB31200E882A00D92046 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5257FB30200E882A00D92046 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5257FB1D200E475800D92046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5257FB20200E475800D92046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5257FB22200E475800D92046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5257FB28200E4D9800D92046 /* CollectionJSON.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CollectionJSON.txt; sourceTree = "<group>"; };
+		5257FB2C200E742C00D92046 /* imageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageCollectionViewCell.swift; sourceTree = "<group>"; };
+		5257FB30200E882A00D92046 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				5257FB16200E475700D92046 /* AppDelegate.swift */,
 				5257FB18200E475700D92046 /* ViewController.swift */,
+				5257FB2C200E742C00D92046 /* imageCollectionViewCell.swift */,
 				5257FB1A200E475800D92046 /* Main.storyboard */,
 				5257FB1D200E475800D92046 /* Assets.xcassets */,
 				5257FB1F200E475800D92046 /* LaunchScreen.storyboard */,
 				5257FB22200E475800D92046 /* Info.plist */,
+				5257FB28200E4D9800D92046 /* CollectionJSON.txt */,
+				5257FB30200E882A00D92046 /* data.json */,
 			);
 			path = taskFlkr;
 			sourceTree = "<group>";
@@ -124,7 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5257FB21200E475800D92046 /* LaunchScreen.storyboard in Resources */,
+				5257FB31200E882A00D92046 /* data.json in Resources */,
 				5257FB1E200E475800D92046 /* Assets.xcassets in Resources */,
+				5257FB29200E4D9800D92046 /* CollectionJSON.txt in Resources */,
 				5257FB1C200E475800D92046 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +149,7 @@
 			files = (
 				5257FB19200E475700D92046 /* ViewController.swift in Sources */,
 				5257FB17200E475700D92046 /* AppDelegate.swift in Sources */,
+				5257FB2D200E742C00D92046 /* imageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				5257FB27200E475800D92046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
